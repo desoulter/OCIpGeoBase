@@ -28,7 +28,9 @@
 
 - (void)testLookupHttp
 {
-    [OCIpGeoBase lookupWithIp:ip];
+    id<OCIGeoInfo> geoInfo = [OCIpGeoBase lookupWithIp:ip];
+    NSLog(@"-------%@", geoInfo.country);
+    NSAssert([geoInfo.country isEqualToString:@"RU"], @"comment");
 }
 
 @end
