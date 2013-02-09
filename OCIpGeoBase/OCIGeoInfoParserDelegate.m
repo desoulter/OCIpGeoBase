@@ -30,8 +30,8 @@ enum {
             @"city": @((int)OCICity),
             @"country": @((int)OCICountry),
             @"region": @((int)OCIRegion),
-            @"lat": @((int)OCIRegion),
-            @"lat": @((int)OCIRegion)
+            @"lat": @((int)OCILat),
+            @"lat": @((int)OCILng)
         };
     }
     
