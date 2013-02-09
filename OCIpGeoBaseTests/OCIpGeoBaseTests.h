@@ -8,6 +8,8 @@
 
 #import <SenTestingKit/SenTestingKit.h>
 
-@interface OCIpGeoBaseTests : SenTestCase
+@interface OCIpGeoBaseTests : SenTestCase {
+    NSString *ip;
+}
 
 @end

@@ -7,6 +7,7 @@
 //
 
 #import "OCIpGeoBaseTests.h"
+#import "OCIpGeoBase.h"
 
 @implementation OCIpGeoBaseTests
 
@@ -15,6 +16,7 @@
     [super setUp];
     
     // Set-up code here.
+    ip = @"46.8.114.116";
 }
 
 - (void)tearDown
@@ -27,6 +29,11 @@
 - (void)testExample
 {
     STFail(@"Unit tests are not implemented yet in OCIpGeoBaseTests");
+}
+
+- (void)testLookupHttp
+{
+    [OCIpGeoBase lookupWithIp:ip];
 }
 
 @end
