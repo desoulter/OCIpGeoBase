@@ -17,6 +17,6 @@
 @property (nonatomic, readonly) float lat;
 @property (nonatomic, readonly) float lng;
 
-- (id)initWithIp:(NSString *)ip city:(NSString *)city country:(NSString *)county region:(NSString *)region lat:(float)lat lng:(float)lng;
+- (id)initWithIp:(NSString *)ip city:(NSString *)city country:(NSString *)country region:(NSString *)region lat:(float)lat lng:(float)lng;
 
 @end
