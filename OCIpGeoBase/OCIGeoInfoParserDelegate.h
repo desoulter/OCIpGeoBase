@@ -12,15 +12,9 @@
 @interface OCIGeoInfoParserDelegate : NSObject<NSXMLParserDelegate> {
     NSURL *url;
     NSString *ip;
-    NSString* city;
-    NSString* country;
-    NSString* region;
-    float lat;
-    float lng;
 
     NSMutableString *buffer;
-    int currentElement;
-    NSDictionary *map;
+    NSMutableDictionary *values;
 }
 
 - (id)initWithIp:(NSString *)ip;
