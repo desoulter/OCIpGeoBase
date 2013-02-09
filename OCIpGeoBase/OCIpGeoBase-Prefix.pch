@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'OCIpGeoBase' target in the 'OCIpGeoBase' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
