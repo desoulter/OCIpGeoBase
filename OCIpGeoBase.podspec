@@ -40,8 +40,8 @@ Pod::Spec.new do |s|
   # Specify the authors of the library, with email addresses. You can often find
   # the email addresses of the authors by using the SCM log. E.g. $ git log
   #
-  s.author       = { "Kirillov Alexander" => "saratovsource@gmail.com" }
-  # s.authors      = { "Kirillov Alexander" => "saratovsource@gmail.com", "other author" => "and email address" }
+  #s.author       = { "Kirillov Alexander" => "saratovsource@gmail.com" }
+  s.authors      = { "Kirillov Alexander" => "saratovsource@gmail.com", "other author" => "and email address" }
   #
   # If absolutely no email addresses are available, then you can use this form instead.
   #
@@ -49,7 +49,7 @@ Pod::Spec.new do |s|
 
   # Specify the location from where the source should be retrieved.
   #
-  s.source       = { :git => "http://EXAMPLE/OCIpGeoBase.git", :tag => "0.0.1" }
+  s.source       = { :git => "http://desoulter/OCIpGeoBase.git", :tag => "0.0.1" }
   # s.source       = { :svn => 'http://EXAMPLE/OCIpGeoBase/tags/1.0.0' }
   # s.source       = { :hg  => 'http://EXAMPLE/OCIpGeoBase', :revision => '1.0.0' }
 
