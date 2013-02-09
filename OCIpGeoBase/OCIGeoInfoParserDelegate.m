@@ -40,8 +40,7 @@
     buffer = [[NSMutableString alloc] init];
 }
 
-
-- (void)parser:(NSXMLParser *)parser didStartMappingPrefix:(NSString *)prefix toURI:(NSString *)namespaceURI
+- (void)parser:(NSXMLParser *)parser didEndElement:(NSString *)elementName namespaceURI:(NSString *)namespaceURI qualifiedName:(NSString *)qName
 {
     NSLog(@"element value %@", buffer);
 }
