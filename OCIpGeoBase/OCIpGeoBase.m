@@ -7,19 +7,14 @@
 //
 
 #import "OCIpGeoBase.h"
-#import "OCIGeoInfoImplementation.h"
+#import "OCIGeoInfoParserDelegate.h"
 
 @implementation OCIpGeoBase
 
 + (id<OCIGeoInfo>)lookupWithIp:(NSString *)ip
 {
-    NSString* url = [NSString stringWithFormat:@"http://ipgeobase.ru:7020/geo?ip=%@", ip];
-    NSXMLParser* parser = [[NSXMLParser alloc] initWithContentsOfURL:[NSURL URLWithString:url]];
-    id<NSXMLParserDelegate> delegate;
-    parser.delegate = delegate;
-    [parser parse];
-    
-    return delegate.geoInfo;
+    OCIGeoInfoParserDelegate *parserDelegate = [[OCIGeoInfoParserDelegate alloc] initWithIp:ip];
+    return [parserDelegate geoInfo];    
 }
 
 @end
