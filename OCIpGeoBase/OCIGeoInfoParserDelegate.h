@@ -19,6 +19,8 @@
     float lng;
 
     NSMutableString *buffer;
+    int currentElement;
+    NSDictionary *map;
 }
 
 - (id)initWithIp:(NSString *)ip;
