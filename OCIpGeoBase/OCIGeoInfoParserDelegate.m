@@ -79,6 +79,7 @@ enum {
             break;
     }
     currentElement = OCIUnknown;
+    NSLog(@"-------%@", buffer);
 }
 
 - (void)parser:(NSXMLParser *)parser foundCharacters:(NSString *)string
