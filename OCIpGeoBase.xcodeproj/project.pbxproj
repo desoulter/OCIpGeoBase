@@ -1,1043 +1,510 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>20C91DE9403E499F818467D8</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>libPods-OCIpGeoBaseTests.a</string>
-			<key>path</key>
-			<string>libPods-OCIpGeoBaseTests.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>2B532B2B307844D4B223238B</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Pods-OCIpGeoBaseTests-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>1</string>
-		</dict>
-		<key>3312B9BAFA9547028BF8FD89</key>
-		<dict>
-			<key>fileRef</key>
-			<string>20C91DE9403E499F818467D8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>772E474EFEA147C6881D30B2</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>libPods.a</string>
-			<key>path</key>
-			<string>libPods.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>ACF648DD267741819F7754BD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-OCIpGeoBaseTests.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Pods-OCIpGeoBaseTests.xcconfig</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>B6F457BBC8AA46CABA553BFB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Pods.xcconfig</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>BFF73F948B7F4CEB848803B4</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Pods-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>1</string>
-		</dict>
-		<key>C0D9A0D16B97416DA464F101</key>
-		<dict>
-			<key>fileRef</key>
-			<string>772E474EFEA147C6881D30B2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>FAB1B18316C633EE003CE9B4</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>FAD13F3A16C638D60071A113</string>
-				<string>FAD13F4C16C638D60071A113</string>
-				<string>FAD13F3316C638D60071A113</string>
-				<string>FAD13F3216C638D60071A113</string>
-				<string>B6F457BBC8AA46CABA553BFB</string>
-				<string>ACF648DD267741819F7754BD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FAB1B18416C633EE003CE9B4</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0460</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>FAB1B18716C633EE003CE9B4</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>FAB1B18316C633EE003CE9B4</string>
-			<key>productRefGroup</key>
-			<string>FAD13F3216C638D60071A113</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>FAD13F3016C638D60071A113</string>
-				<string>FAD13F4416C638D60071A113</string>
-			</array>
-		</dict>
-		<key>FAB1B18716C633EE003CE9B4</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>FAB1B18816C633EE003CE9B4</string>
-				<string>FAB1B18916C633EE003CE9B4</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>FAB1B18816C633EE003CE9B4</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict/>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>FAB1B18916C633EE003CE9B4</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict/>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>FAD13F2D16C638D60071A113</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>FAD13F3F16C638D60071A113</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>FAD13F2E16C638D60071A113</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>FAD13F3516C638D60071A113</string>
-				<string>C0D9A0D16B97416DA464F101</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>FAD13F2F16C638D60071A113</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>FAD13F3016C638D60071A113</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>FAD13F5916C638D60071A113</string>
-			<key>buildPhases</key>
-			<array>
-				<string>FAD13F2D16C638D60071A113</string>
-				<string>FAD13F2E16C638D60071A113</string>
-				<string>FAD13F2F16C638D60071A113</string>
-				<string>BFF73F948B7F4CEB848803B4</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>OCIpGeoBase</string>
-			<key>productName</key>
-			<string>OCIpGeoBase</string>
-			<key>productReference</key>
-			<string>FAD13F3116C638D60071A113</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.dynamic</string>
-		</dict>
-		<key>FAD13F3116C638D60071A113</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>compiled.mach-o.dylib</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>OCIpGeoBase.dylib</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>FAD13F3216C638D60071A113</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>FAD13F3116C638D60071A113</string>
-				<string>FAD13F4516C638D60071A113</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FAD13F3316C638D60071A113</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>FAD13F3416C638D60071A113</string>
-				<string>FAD13F4616C638D60071A113</string>
-				<string>FAD13F3616C638D60071A113</string>
-				<string>772E474EFEA147C6881D30B2</string>
-				<string>20C91DE9403E499F818467D8</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FAD13F3416C638D60071A113</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Cocoa.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/Cocoa.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>FAD13F3516C638D60071A113</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FAD13F3416C638D60071A113</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FAD13F3616C638D60071A113</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>FAD13F3716C638D60071A113</string>
-				<string>FAD13F3816C638D60071A113</string>
-				<string>FAD13F3916C638D60071A113</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Other Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FAD13F3716C638D60071A113</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>AppKit.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/AppKit.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>FAD13F3816C638D60071A113</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>CoreData.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/CoreData.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>FAD13F3916C638D60071A113</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>FAD13F3A16C638D60071A113</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>FAD13F3D16C638D60071A113</string>
-				<string>FAD13F3E16C638D60071A113</string>
-				<string>FAD13F3B16C638D60071A113</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>OCIpGeoBase</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FAD13F3B16C638D60071A113</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>FAD13F3C16C638D60071A113</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FAD13F3C16C638D60071A113</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>OCIpGeoBase-Prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FAD13F3D16C638D60071A113</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>OCIpGeoBase.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FAD13F3E16C638D60071A113</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>OCIpGeoBase.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FAD13F3F16C638D60071A113</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FAD13F3E16C638D60071A113</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FAD13F4016C638D60071A113</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>FAD13F5416C638D60071A113</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>FAD13F4116C638D60071A113</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>FAD13F4716C638D60071A113</string>
-				<string>FAD13F4816C638D60071A113</string>
-				<string>FAD13F4B16C638D60071A113</string>
-				<string>3312B9BAFA9547028BF8FD89</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>FAD13F4216C638D60071A113</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>FAD13F5116C638D60071A113</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>FAD13F4316C638D60071A113</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string># Run the unit tests in this test bundle.
-"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests"
-</string>
-		</dict>
-		<key>FAD13F4416C638D60071A113</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>FAD13F5A16C638D60071A113</string>
-			<key>buildPhases</key>
-			<array>
-				<string>FAD13F4016C638D60071A113</string>
-				<string>FAD13F4116C638D60071A113</string>
-				<string>FAD13F4216C638D60071A113</string>
-				<string>FAD13F4316C638D60071A113</string>
-				<string>2B532B2B307844D4B223238B</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>FAD13F4A16C638D60071A113</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>OCIpGeoBaseTests</string>
-			<key>productName</key>
-			<string>OCIpGeoBaseTests</string>
-			<key>productReference</key>
-			<string>FAD13F4516C638D60071A113</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle</string>
-		</dict>
-		<key>FAD13F4516C638D60071A113</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>OCIpGeoBaseTests.octest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>FAD13F4616C638D60071A113</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>SenTestingKit.framework</string>
-			<key>path</key>
-			<string>Library/Frameworks/SenTestingKit.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>FAD13F4716C638D60071A113</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FAD13F4616C638D60071A113</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FAD13F4816C638D60071A113</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FAD13F3416C638D60071A113</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FAD13F4916C638D60071A113</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>FAB1B18416C633EE003CE9B4</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>FAD13F3016C638D60071A113</string>
-			<key>remoteInfo</key>
-			<string>OCIpGeoBase</string>
-		</dict>
-		<key>FAD13F4A16C638D60071A113</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>FAD13F3016C638D60071A113</string>
-			<key>targetProxy</key>
-			<string>FAD13F4916C638D60071A113</string>
-		</dict>
-		<key>FAD13F4B16C638D60071A113</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FAD13F3116C638D60071A113</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FAD13F4C16C638D60071A113</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>FAD13F5216C638D60071A113</string>
-				<string>FAD13F5316C638D60071A113</string>
-				<string>FAD13F4D16C638D60071A113</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>OCIpGeoBaseTests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FAD13F4D16C638D60071A113</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>FAD13F4E16C638D60071A113</string>
-				<string>FAD13F4F16C638D60071A113</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FAD13F4E16C638D60071A113</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>OCIpGeoBaseTests-Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FAD13F4F16C638D60071A113</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>FAD13F5016C638D60071A113</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FAD13F5016C638D60071A113</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.strings</string>
-			<key>name</key>
-			<string>en</string>
-			<key>path</key>
-			<string>en.lproj/InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FAD13F5116C638D60071A113</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FAD13F4F16C638D60071A113</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FAD13F5216C638D60071A113</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>OCIpGeoBaseTests.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FAD13F5316C638D60071A113</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>OCIpGeoBaseTests.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FAD13F5416C638D60071A113</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FAD13F5316C638D60071A113</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FAD13F5516C638D60071A113</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>B6F457BBC8AA46CABA553BFB</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>ARCHS</key>
-				<string>$(ARCHS_STANDARD_64_BIT)</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_ENABLE_OBJC_EXCEPTIONS</key>
-				<string>YES</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>OCIpGeoBase/OCIpGeoBase-Prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>MACOSX_DEPLOYMENT_TARGET</key>
-				<string>10.8</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>macosx</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>FAD13F5616C638D60071A113</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>B6F457BBC8AA46CABA553BFB</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>ARCHS</key>
-				<string>$(ARCHS_STANDARD_64_BIT)</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_ENABLE_OBJC_EXCEPTIONS</key>
-				<string>YES</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>OCIpGeoBase/OCIpGeoBase-Prefix.pch</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>MACOSX_DEPLOYMENT_TARGET</key>
-				<string>10.8</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>macosx</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>FAD13F5716C638D60071A113</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>ACF648DD267741819F7754BD</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>ARCHS</key>
-				<string>$(ARCHS_STANDARD_64_BIT)</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>COMBINE_HIDPI_IMAGES</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<string>"$(DEVELOPER_LIBRARY_DIR)/Frameworks"</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_ENABLE_OBJC_EXCEPTIONS</key>
-				<string>YES</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>OCIpGeoBase/OCIpGeoBase-Prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>OCIpGeoBaseTests/OCIpGeoBaseTests-Info.plist</string>
-				<key>MACOSX_DEPLOYMENT_TARGET</key>
-				<string>10.8</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>macosx</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>octest</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>FAD13F5816C638D60071A113</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>ACF648DD267741819F7754BD</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>ARCHS</key>
-				<string>$(ARCHS_STANDARD_64_BIT)</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>COMBINE_HIDPI_IMAGES</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<string>"$(DEVELOPER_LIBRARY_DIR)/Frameworks"</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_ENABLE_OBJC_EXCEPTIONS</key>
-				<string>YES</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>OCIpGeoBase/OCIpGeoBase-Prefix.pch</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>OCIpGeoBaseTests/OCIpGeoBaseTests-Info.plist</string>
-				<key>MACOSX_DEPLOYMENT_TARGET</key>
-				<string>10.8</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>macosx</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>octest</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>FAD13F5916C638D60071A113</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>FAD13F5516C638D60071A113</string>
-				<string>FAD13F5616C638D60071A113</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>FAD13F5A16C638D60071A113</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>FAD13F5716C638D60071A113</string>
-				<string>FAD13F5816C638D60071A113</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>FAB1B18416C633EE003CE9B4</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAD13F3516C638D60071A113 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD13F3416C638D60071A113 /* Cocoa.framework */; };
+		FAD13F3F16C638D60071A113 /* OCIpGeoBase.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD13F3E16C638D60071A113 /* OCIpGeoBase.m */; };
+		FAD13F4716C638D60071A113 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD13F4616C638D60071A113 /* SenTestingKit.framework */; };
+		FAD13F4816C638D60071A113 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD13F3416C638D60071A113 /* Cocoa.framework */; };
+		FAD13F4B16C638D60071A113 /* OCIpGeoBase.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD13F3116C638D60071A113 /* OCIpGeoBase.dylib */; };
+		FAD13F5116C638D60071A113 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FAD13F4F16C638D60071A113 /* InfoPlist.strings */; };
+		FAD13F5416C638D60071A113 /* OCIpGeoBaseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD13F5316C638D60071A113 /* OCIpGeoBaseTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAD13F4916C638D60071A113 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAB1B18416C633EE003CE9B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAD13F3016C638D60071A113;
+			remoteInfo = OCIpGeoBase;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ACF648DD267741819F7754BD /* Pods-OCIpGeoBaseTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCIpGeoBaseTests.xcconfig"; path = "Pods/Pods-OCIpGeoBaseTests.xcconfig"; sourceTree = SOURCE_ROOT; };
+		B6F457BBC8AA46CABA553BFB /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		FAD13F3116C638D60071A113 /* OCIpGeoBase.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = OCIpGeoBase.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD13F3416C638D60071A113 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		FAD13F3716C638D60071A113 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		FAD13F3816C638D60071A113 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		FAD13F3916C638D60071A113 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FAD13F3C16C638D60071A113 /* OCIpGeoBase-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OCIpGeoBase-Prefix.pch"; sourceTree = "<group>"; };
+		FAD13F3D16C638D60071A113 /* OCIpGeoBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCIpGeoBase.h; sourceTree = "<group>"; };
+		FAD13F3E16C638D60071A113 /* OCIpGeoBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCIpGeoBase.m; sourceTree = "<group>"; };
+		FAD13F4516C638D60071A113 /* OCIpGeoBaseTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCIpGeoBaseTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD13F4616C638D60071A113 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		FAD13F4E16C638D60071A113 /* OCIpGeoBaseTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OCIpGeoBaseTests-Info.plist"; sourceTree = "<group>"; };
+		FAD13F5016C638D60071A113 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FAD13F5216C638D60071A113 /* OCIpGeoBaseTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCIpGeoBaseTests.h; sourceTree = "<group>"; };
+		FAD13F5316C638D60071A113 /* OCIpGeoBaseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCIpGeoBaseTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAD13F2E16C638D60071A113 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD13F3516C638D60071A113 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD13F4116C638D60071A113 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD13F4716C638D60071A113 /* SenTestingKit.framework in Frameworks */,
+				FAD13F4816C638D60071A113 /* Cocoa.framework in Frameworks */,
+				FAD13F4B16C638D60071A113 /* OCIpGeoBase.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAB1B18316C633EE003CE9B4 = {
+			isa = PBXGroup;
+			children = (
+				FAD13F3A16C638D60071A113 /* OCIpGeoBase */,
+				FAD13F4C16C638D60071A113 /* OCIpGeoBaseTests */,
+				FAD13F3316C638D60071A113 /* Frameworks */,
+				FAD13F3216C638D60071A113 /* Products */,
+				B6F457BBC8AA46CABA553BFB /* Pods.xcconfig */,
+				ACF648DD267741819F7754BD /* Pods-OCIpGeoBaseTests.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		FAD13F3216C638D60071A113 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAD13F3116C638D60071A113 /* OCIpGeoBase.dylib */,
+				FAD13F4516C638D60071A113 /* OCIpGeoBaseTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAD13F3316C638D60071A113 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAD13F3416C638D60071A113 /* Cocoa.framework */,
+				FAD13F4616C638D60071A113 /* SenTestingKit.framework */,
+				FAD13F3616C638D60071A113 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FAD13F3616C638D60071A113 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAD13F3716C638D60071A113 /* AppKit.framework */,
+				FAD13F3816C638D60071A113 /* CoreData.framework */,
+				FAD13F3916C638D60071A113 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		FAD13F3A16C638D60071A113 /* OCIpGeoBase */ = {
+			isa = PBXGroup;
+			children = (
+				FAD13F3D16C638D60071A113 /* OCIpGeoBase.h */,
+				FAD13F3E16C638D60071A113 /* OCIpGeoBase.m */,
+				FAD13F3B16C638D60071A113 /* Supporting Files */,
+			);
+			path = OCIpGeoBase;
+			sourceTree = "<group>";
+		};
+		FAD13F3B16C638D60071A113 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAD13F3C16C638D60071A113 /* OCIpGeoBase-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAD13F4C16C638D60071A113 /* OCIpGeoBaseTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAD13F5216C638D60071A113 /* OCIpGeoBaseTests.h */,
+				FAD13F5316C638D60071A113 /* OCIpGeoBaseTests.m */,
+				FAD13F4D16C638D60071A113 /* Supporting Files */,
+			);
+			path = OCIpGeoBaseTests;
+			sourceTree = "<group>";
+		};
+		FAD13F4D16C638D60071A113 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAD13F4E16C638D60071A113 /* OCIpGeoBaseTests-Info.plist */,
+				FAD13F4F16C638D60071A113 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		FAD13F2F16C638D60071A113 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		FAD13F3016C638D60071A113 /* OCIpGeoBase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAD13F5916C638D60071A113 /* Build configuration list for PBXNativeTarget "OCIpGeoBase" */;
+			buildPhases = (
+				FAD13F2D16C638D60071A113 /* Sources */,
+				FAD13F2E16C638D60071A113 /* Frameworks */,
+				FAD13F2F16C638D60071A113 /* Headers */,
+				BFF73F948B7F4CEB848803B4 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OCIpGeoBase;
+			productName = OCIpGeoBase;
+			productReference = FAD13F3116C638D60071A113 /* OCIpGeoBase.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		FAD13F4416C638D60071A113 /* OCIpGeoBaseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAD13F5A16C638D60071A113 /* Build configuration list for PBXNativeTarget "OCIpGeoBaseTests" */;
+			buildPhases = (
+				FAD13F4016C638D60071A113 /* Sources */,
+				FAD13F4116C638D60071A113 /* Frameworks */,
+				FAD13F4216C638D60071A113 /* Resources */,
+				FAD13F4316C638D60071A113 /* ShellScript */,
+				2B532B2B307844D4B223238B /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAD13F4A16C638D60071A113 /* PBXTargetDependency */,
+			);
+			name = OCIpGeoBaseTests;
+			productName = OCIpGeoBaseTests;
+			productReference = FAD13F4516C638D60071A113 /* OCIpGeoBaseTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAB1B18416C633EE003CE9B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = FAB1B18716C633EE003CE9B4 /* Build configuration list for PBXProject "OCIpGeoBase" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FAB1B18316C633EE003CE9B4;
+			productRefGroup = FAD13F3216C638D60071A113 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAD13F3016C638D60071A113 /* OCIpGeoBase */,
+				FAD13F4416C638D60071A113 /* OCIpGeoBaseTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAD13F4216C638D60071A113 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD13F5116C638D60071A113 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B532B2B307844D4B223238B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-OCIpGeoBaseTests-resources.sh\"\n";
+		};
+		BFF73F948B7F4CEB848803B4 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+		FAD13F4316C638D60071A113 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAD13F2D16C638D60071A113 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD13F3F16C638D60071A113 /* OCIpGeoBase.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD13F4016C638D60071A113 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD13F5416C638D60071A113 /* OCIpGeoBaseTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAD13F4A16C638D60071A113 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAD13F3016C638D60071A113 /* OCIpGeoBase */;
+			targetProxy = FAD13F4916C638D60071A113 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAD13F4F16C638D60071A113 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAD13F5016C638D60071A113 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAB1B18816C633EE003CE9B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		FAB1B18916C633EE003CE9B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		FAD13F5516C638D60071A113 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6F457BBC8AA46CABA553BFB /* Pods.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OCIpGeoBase/OCIpGeoBase-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FAD13F5616C638D60071A113 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6F457BBC8AA46CABA553BFB /* Pods.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OCIpGeoBase/OCIpGeoBase-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FAD13F5716C638D60071A113 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACF648DD267741819F7754BD /* Pods-OCIpGeoBaseTests.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OCIpGeoBase/OCIpGeoBase-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "OCIpGeoBaseTests/OCIpGeoBaseTests-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		FAD13F5816C638D60071A113 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACF648DD267741819F7754BD /* Pods-OCIpGeoBaseTests.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OCIpGeoBase/OCIpGeoBase-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "OCIpGeoBaseTests/OCIpGeoBaseTests-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAB1B18716C633EE003CE9B4 /* Build configuration list for PBXProject "OCIpGeoBase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAB1B18816C633EE003CE9B4 /* Debug */,
+				FAB1B18916C633EE003CE9B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAD13F5916C638D60071A113 /* Build configuration list for PBXNativeTarget "OCIpGeoBase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD13F5516C638D60071A113 /* Debug */,
+				FAD13F5616C638D60071A113 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAD13F5A16C638D60071A113 /* Build configuration list for PBXNativeTarget "OCIpGeoBaseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD13F5716C638D60071A113 /* Debug */,
+				FAD13F5816C638D60071A113 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAB1B18416C633EE003CE9B4 /* Project object */;
+}

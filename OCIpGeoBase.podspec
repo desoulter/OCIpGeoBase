@@ -56,7 +56,7 @@ Pod::Spec.new do |s|
   # If this Pod runs only on iOS or OS X, then specify the platform and
   # the deployment target.
   #
-  s.platform     = :ios, '5.0'
+  #s.platform     = :ios, '5.0'
   # s.platform     = :ios
 
   # ――― MULTI-PLATFORM VALUES ――――――――――――――――――――――――――――――――――――――――――――――――― #
