@@ -27,6 +27,7 @@
     parser.delegate = self;
     // TODO: handle errors
     //if ([parser parse] == NO);
+    [parser parse];
     
     return [[OCIGeoInfoImplementation alloc] initWithIp:ip city:city country:country region:region lat:lat lng:lng];
 }
