@@ -7,10 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "OCIGeoInfo.h"
+#import "OCIpGeoInfo.h"
 
 @interface OCIpGeoBase : NSObject
 
-+ (id<OCIGeoInfo>)lookupWithIp:(NSString *)ip;
++ (id<OCIpGeoInfo>)lookupWithIp:(NSString *)ip;
 
 @end

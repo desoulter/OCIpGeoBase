@@ -7,13 +7,13 @@
 //
 
 #import "OCIpGeoBase.h"
-#import "OCIGeoInfoParserDelegate.h"
+#import "OCIpGeoInfoParserDelegate.h"
 
 @implementation OCIpGeoBase
 
-+ (id<OCIGeoInfo>)lookupWithIp:(NSString *)ip
++ (id<OCIpGeoInfo>)lookupWithIp:(NSString *)ip
 {
-    OCIGeoInfoParserDelegate *parserDelegate = [[OCIGeoInfoParserDelegate alloc] initWithIp:ip];
+    OCIpGeoInfoParserDelegate *parserDelegate = [[OCIpGeoInfoParserDelegate alloc] initWithIp:ip];
     return [parserDelegate geoInfo];    
 }
 

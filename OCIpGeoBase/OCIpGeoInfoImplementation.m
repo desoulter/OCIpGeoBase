@@ -1,14 +1,14 @@
 //
-//  OCIGeoInfoImplementation.m
+//  OCIpGeoInfoImplementation.m
 //  OCIpGeoBase
 //
 //  Created by Ildar Sharafutdinov on 2/9/13.
 //
 //
 
-#import "OCIGeoInfoImplementation.h"
+#import "OCIpGeoInfoImplementation.h"
 
-@implementation OCIGeoInfoImplementation
+@implementation OCIpGeoInfoImplementation
 
 @synthesize ip, city, country, region, lat, lng;
 

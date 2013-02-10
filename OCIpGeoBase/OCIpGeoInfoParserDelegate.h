@@ -1,15 +1,14 @@
 //
-//  OCIGeoInfoParserDelegate.h
+//  OCIpGeoInfoParserDelegate.h
 //  OCIpGeoBase
 //
 //  Created by Ildar Sharafutdinov on 2/9/13.
 //
 //
 
-#import <Foundation/Foundation.h>
-#import "OCIGeoInfo.h"
+#import "OCIpGeoInfo.h"
 
-@interface OCIGeoInfoParserDelegate : NSObject<NSXMLParserDelegate> {
+@interface OCIpGeoInfoParserDelegate : NSObject<NSXMLParserDelegate> {
     NSURL *url;
     NSString *ip;
 
@@ -18,6 +17,6 @@
 }
 
 - (id)initWithIp:(NSString *)ip;
-- (id<OCIGeoInfo>)geoInfo;
+- (id<OCIpGeoInfo>)geoInfo;
 
 @end

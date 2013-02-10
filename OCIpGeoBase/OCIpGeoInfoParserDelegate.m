@@ -1,15 +1,15 @@
 //
-//  OCIGeoInfoParserDelegate.m
+//  OCIpGeoInfoParserDelegate.m
 //  OCIpGeoBase
 //
 //  Created by Ildar Sharafutdinov on 2/9/13.
 //
 //
 
-#import "OCIGeoInfoParserDelegate.h"
-#import "OCIGeoInfoImplementation.h"
+#import "OCIpGeoInfoParserDelegate.h"
+#import "OCIpGeoInfoImplementation.h"
 
-@implementation OCIGeoInfoParserDelegate
+@implementation OCIpGeoInfoParserDelegate
 
 - (id)initWithIp:(NSString *)_ip
 {
@@ -22,15 +22,15 @@
             @"city": @"",
             @"country": @"",
             @"region": @"",
-            @"lat": @"",
-            @"lng": @""
+            @"lat": @"0",
+            @"lng": @"0"
         } mutableCopy];
     }
     
     return self;
 }
 
-- (id<OCIGeoInfo>)geoInfo
+- (id<OCIpGeoInfo>)geoInfo
 {
     NSXMLParser* parser = [[NSXMLParser alloc] initWithContentsOfURL:url];
     parser.delegate = self;
@@ -38,7 +38,7 @@
     //if ([parser parse] == NO);
     [parser parse];
     
-    return [[OCIGeoInfoImplementation alloc] initWithIp:ip city:values[@"city"] country:values[@"country"] region:values[@"region"] lat:[values[@"lat"] floatValue] lng:[values[@"lng"] floatValue]];
+    return [[OCIpGeoInfoImplementation alloc] initWithIp:ip city:values[@"city"] country:values[@"country"] region:values[@"region"] lat:[values[@"lat"] floatValue] lng:[values[@"lng"] floatValue]];
 }
 
 #pragma mark NSXMLParserDelegate

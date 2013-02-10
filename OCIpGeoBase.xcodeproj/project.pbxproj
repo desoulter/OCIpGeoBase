@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		741D60C616C6411900C60F7B /* OCIGeoInfoImplementation.h in Headers */ = {isa = PBXBuildFile; fileRef = 741D60C416C6411900C60F7B /* OCIGeoInfoImplementation.h */; };
-		741D60C716C6411900C60F7B /* OCIGeoInfoImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 741D60C516C6411900C60F7B /* OCIGeoInfoImplementation.m */; };
-		741D60CA16C64B8F00C60F7B /* OCIGeoInfoParserDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 741D60C816C64B8F00C60F7B /* OCIGeoInfoParserDelegate.h */; };
-		741D60CB16C64B8F00C60F7B /* OCIGeoInfoParserDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 741D60C916C64B8F00C60F7B /* OCIGeoInfoParserDelegate.m */; };
+		741D60D116C771E200C60F7B /* OCIpGeoInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 741D60CC16C771E200C60F7B /* OCIpGeoInfo.h */; };
+		741D60D216C771E200C60F7B /* OCIpGeoInfoImplementation.h in Headers */ = {isa = PBXBuildFile; fileRef = 741D60CD16C771E200C60F7B /* OCIpGeoInfoImplementation.h */; };
+		741D60D316C771E200C60F7B /* OCIpGeoInfoImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 741D60CE16C771E200C60F7B /* OCIpGeoInfoImplementation.m */; };
+		741D60D416C771E200C60F7B /* OCIpGeoInfoParserDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 741D60CF16C771E200C60F7B /* OCIpGeoInfoParserDelegate.h */; };
+		741D60D516C771E200C60F7B /* OCIpGeoInfoParserDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 741D60D016C771E200C60F7B /* OCIpGeoInfoParserDelegate.m */; };
 		FAD13F3516C638D60071A113 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD13F3416C638D60071A113 /* Cocoa.framework */; };
 		FAD13F3F16C638D60071A113 /* OCIpGeoBase.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD13F3E16C638D60071A113 /* OCIpGeoBase.m */; };
 		FAD13F4716C638D60071A113 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD13F4616C638D60071A113 /* SenTestingKit.framework */; };
@@ -31,11 +32,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		741D60C316C6407E00C60F7B /* OCIGeoInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCIGeoInfo.h; sourceTree = "<group>"; };
-		741D60C416C6411900C60F7B /* OCIGeoInfoImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCIGeoInfoImplementation.h; sourceTree = "<group>"; };
-		741D60C516C6411900C60F7B /* OCIGeoInfoImplementation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCIGeoInfoImplementation.m; sourceTree = "<group>"; };
-		741D60C816C64B8F00C60F7B /* OCIGeoInfoParserDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCIGeoInfoParserDelegate.h; sourceTree = "<group>"; };
-		741D60C916C64B8F00C60F7B /* OCIGeoInfoParserDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCIGeoInfoParserDelegate.m; sourceTree = "<group>"; };
+		741D60CC16C771E200C60F7B /* OCIpGeoInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCIpGeoInfo.h; sourceTree = "<group>"; };
+		741D60CD16C771E200C60F7B /* OCIpGeoInfoImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCIpGeoInfoImplementation.h; sourceTree = "<group>"; };
+		741D60CE16C771E200C60F7B /* OCIpGeoInfoImplementation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCIpGeoInfoImplementation.m; sourceTree = "<group>"; };
+		741D60CF16C771E200C60F7B /* OCIpGeoInfoParserDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCIpGeoInfoParserDelegate.h; sourceTree = "<group>"; };
+		741D60D016C771E200C60F7B /* OCIpGeoInfoParserDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCIpGeoInfoParserDelegate.m; sourceTree = "<group>"; };
 		ACF648DD267741819F7754BD /* Pods-OCIpGeoBaseTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCIpGeoBaseTests.xcconfig"; path = "Pods/Pods-OCIpGeoBaseTests.xcconfig"; sourceTree = SOURCE_ROOT; };
 		B6F457BBC8AA46CABA553BFB /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 		FAD13F3116C638D60071A113 /* OCIpGeoBase.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = OCIpGeoBase.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -122,11 +123,11 @@
 			children = (
 				FAD13F3D16C638D60071A113 /* OCIpGeoBase.h */,
 				FAD13F3E16C638D60071A113 /* OCIpGeoBase.m */,
-				741D60C316C6407E00C60F7B /* OCIGeoInfo.h */,
-				741D60C816C64B8F00C60F7B /* OCIGeoInfoParserDelegate.h */,
-				741D60C916C64B8F00C60F7B /* OCIGeoInfoParserDelegate.m */,
-				741D60C416C6411900C60F7B /* OCIGeoInfoImplementation.h */,
-				741D60C516C6411900C60F7B /* OCIGeoInfoImplementation.m */,
+				741D60CC16C771E200C60F7B /* OCIpGeoInfo.h */,
+				741D60CD16C771E200C60F7B /* OCIpGeoInfoImplementation.h */,
+				741D60CE16C771E200C60F7B /* OCIpGeoInfoImplementation.m */,
+				741D60CF16C771E200C60F7B /* OCIpGeoInfoParserDelegate.h */,
+				741D60D016C771E200C60F7B /* OCIpGeoInfoParserDelegate.m */,
 				FAD13F3B16C638D60071A113 /* Supporting Files */,
 			);
 			path = OCIpGeoBase;
@@ -166,8 +167,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				741D60C616C6411900C60F7B /* OCIGeoInfoImplementation.h in Headers */,
-				741D60CA16C64B8F00C60F7B /* OCIGeoInfoParserDelegate.h in Headers */,
+				741D60D116C771E200C60F7B /* OCIpGeoInfo.h in Headers */,
+				741D60D216C771E200C60F7B /* OCIpGeoInfoImplementation.h in Headers */,
+				741D60D416C771E200C60F7B /* OCIpGeoInfoParserDelegate.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,8 +301,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAD13F3F16C638D60071A113 /* OCIpGeoBase.m in Sources */,
-				741D60C716C6411900C60F7B /* OCIGeoInfoImplementation.m in Sources */,
-				741D60CB16C64B8F00C60F7B /* OCIGeoInfoParserDelegate.m in Sources */,
+				741D60D316C771E200C60F7B /* OCIpGeoInfoImplementation.m in Sources */,
+				741D60D516C771E200C60F7B /* OCIpGeoInfoParserDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

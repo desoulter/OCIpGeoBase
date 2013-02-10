@@ -1,5 +1,5 @@
 //
-//  OCIGeoInfo.h
+//  OCIpGeoInfo.h
 //  OCIpGeoBase
 //
 //  Created by Ildar Sharafutdinov on 2/9/13.
@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@protocol OCIGeoInfo <NSObject>
+@protocol OCIpGeoInfo <NSObject>
 
 @property (nonatomic, readonly) NSString* ip;
 @property (nonatomic, readonly) NSString* city;
