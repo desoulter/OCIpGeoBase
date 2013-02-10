@@ -16,7 +16,15 @@
     if (self = [super init]) {
         ip = _ip;
         url = [NSURL URLWithString:[NSString stringWithFormat:@"http://ipgeobase.ru:7020/geo?ip=%@", ip]];
-        values = [[NSMutableDictionary alloc] init];
+
+        // set defaults
+        values = [@{
+            @"city": @"",
+            @"country": @"",
+            @"region": @"",
+            @"lat": @"",
+            @"lng": @""
+        } mutableCopy];
     }
     
     return self;
@@ -42,7 +50,8 @@
 
 - (void)parser:(NSXMLParser *)parser didEndElement:(NSString *)elementName namespaceURI:(NSString *)namespaceURI qualifiedName:(NSString *)qName
 {
-    values[elementName] = buffer;
+    if (values[elementName])
+        values[elementName] = buffer;
 }
 
 - (void)parser:(NSXMLParser *)parser foundCharacters:(NSString *)string
